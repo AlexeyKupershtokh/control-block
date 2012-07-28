@@ -1,0 +1,21 @@
+{
+  "name": "control-block",
+  "version": "0.1.0",
+  "description": "Block-based control flow with error handling",
+  "main": "control-block.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AlexeyKupershtokh/control-block.git"
+  },
+  "keywords": [
+    "flow",
+    "error handling",
+    "exception",
+    "block"
+  ],
+  "author": "Stella Laurenzo",
+  "license": "BSD"
+}
