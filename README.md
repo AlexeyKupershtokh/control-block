@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/AlexeyKupershtokh/control-block.png)](http://travis-ci.org/AlexeyKupershtokh/control-block)
 control-block
 =============
 
