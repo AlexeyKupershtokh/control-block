@@ -117,5 +117,12 @@ Block.prototype.guard=function(f) {
 	return wrapped;
 };
 
+require('./hook')(generateShim);
+
+function generateShim(next, name, location) {
+    if (typeof next !== 'function') return next
+    return Block.guard(next);
+}
+
 // -- exports
 exports.Block=Block;
